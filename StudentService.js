@@ -8,7 +8,7 @@ const router = express.Router();
 app.use("/", router);
 
 dotenv.config();
-hom
+console
 var connection = mysql.createConnection({
     host : process.env.host,
     user : process.env.DB_user,
